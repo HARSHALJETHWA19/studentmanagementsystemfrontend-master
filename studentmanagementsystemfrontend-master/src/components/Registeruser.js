@@ -14,6 +14,11 @@ export default function Registeruser() {
         <Form.Control type="email" placeholder="Enter email" />
         
       </Form.Group>
+      <Form.Group className="mb-3" controlId="formBasicEmail">
+        <Form.Label> address</Form.Label>
+        <Form.Control type="text" placeholder="Enter address" />
+        
+      </Form.Group>
 
       
       <Button variant="primary" type="submit">
