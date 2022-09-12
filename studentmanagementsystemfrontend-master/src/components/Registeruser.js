@@ -6,7 +6,7 @@ export default function Registeruser() {
     <Form>
         <Form.Group className="mb-3" controlId="formBasicEmail">
         <Form.Label>UserName</Form.Label>
-        <Form.Control type="email" placeholder="Enter UserName" />
+        <Form.Control type="text" placeholder="Enter UserName" />
         
       </Form.Group>
       <Form.Group className="mb-3" controlId="formBasicEmail">
